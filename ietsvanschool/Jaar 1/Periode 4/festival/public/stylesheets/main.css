@@ -1,0 +1,38 @@
+#hoofd{
+    text-align: center;
+    margin: 0;
+}
+#registratie{
+    float:right;
+}
+#inloggen{
+    float:left;
+}
+nav{
+    text-align: center;
+}
+#registratieh2{
+    float:right;
+}
+h2{
+    color: crimson;
+
+}
+#content{
+    height: 600px;
+    background-color: black;
+    color: gray;
+}
+.container{
+    float: right;
+    padding: 0;
+    background-color: #4ca196;
+}
+header{
+    background-color: #4ca196;
+    height: 60px;
+}
+footer{
+    background: #4ca196;
+    height: 93px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>Industrious template</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/css/template_style.css">
+
+</head>
+<body>
+<header>
+    <nav id="navbar" class="navbar-dark">
+        <a href="#" id="logo">Industrious</a>
+        <button id="hamburger-button" onclick="show_hide()">&#9776; Menu</button>
+        <div style="display: none" id="drop-content">
+            <ul id="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <section id="banner">
+        <h1>ABOUT</h1>
+        <p>A responsive business oriented template with a banner designed by SOMEONE and released under the Creative Commons License.</p>
+    </section>
+</header>
+
+<p style=" font-size: 18px;"> Industrious </p>
+<br>
+<br>
+<p>
+    Streetname 123
+    <br>
+    1234 AB City
+    <br>
+    Netherlands
+</p>
+
+
+<div id="iframe" style="text-align: center;">
+    <iframe width="300" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-3.1420898437500004%2C49.710272582105695%2C10.986328125000002%2C54.47642158429295&amp;layer=mapnik"
+            style="border: 1px solid black; " ></iframe>
+    <br/><small><a href="https://www.openstreetmap.org/#map=7/52.157/3.922">Grotere kaart bekijken</a></small>
+</div>
+
+<div class="contactform">
+<hr class="featurette-divider">
+<form style="max-width: 300px">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter fullname">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Enter email">
+        <p style="font-size: 10px"> We'll never share your email with anyone else.</p>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Telephone</label>
+        <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Enter telephonenumber">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+            I've read and accept the terms of conditions
+        </label>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Send</button>
+    <br>
+    <p></p>
+</form>
+</div>
+
+<footer>
+    <div class="row">
+        <div class="col-sm-4">
+            <h4>ACCUMSAN MONTES VIVERRA</h4>
+            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+        </div>
+        <div class="col-sm-4">
+            <h4>SEM TURPIS AMET SEMPER</h4>
+            <ul>
+                <li><a href="#">Dolor pulvinar sed etiam.</a></li>
+                <li><a href="#">Etiam vel lorem sed amet.</a></li>
+                <li><a href="#">Felis enim feugiat viverra.</a></li>
+                <li><a href="#">Dolor pulvinar magna etiam.</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <h4>MAGNA SED IPSUM</h4>
+            <ul id="social-icons">
+                <li><a href="#"><img src="../assets/img/social-twitter.png" alt="Icon Twitter">Twitter</a></li>
+                <li><a href="#"><img src="../assets/img/social-facebook.png" alt="Icon Facebook">Facebook</a></li>
+                <li><a href="#"><img src="../assets/img/social-instagram.png" alt="Icon Instagram">Instagram</a></li>
+                <li><a href="#"><img src="../assets/img/social-github.png" alt="Icon Github">Github</a></li>
+            </ul>
+        </div>
+    </div>
+    <p id="disclaimer">&copy; Untitled. Photos Unsplash. Video Coverr</p>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+<script>
+    function show_hide() {
+        const click = document.getElementById("drop-content");
+        if (click.style.display === "none") {
+            click.style.display = "block";
+        } else {
+            click.style.display = "none";
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-size: cover;
+    text-align: justify;
+    background-image: url("images/background_cs.jpg");
+    background-color: #18394C;
+    font-family: Arial;
+}
+#container{
+    margin: 0 auto;
+    height: auto;
+    width: 940px;
+}
+#header{
+    height: 75px;
+    width: 940px;
+    background-color: black;
+    padding-top: 25px;
+}
+#menu{
+    float: right;
+}
+#menu li {
+    font-size:18px;
+    display:inline;
+    margin-left:40px;
+}
+#menu ul {
+}
+#menu a {
+    color:#B8B6B4;
+    text-decoration:none;
+}
+#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#bedrijfsnaam{
+    font-size: 34px;
+    color: white;
+    margin: 50px 0 10px 0;
+}
+#menuLinks{
+    background-color: black;
+    height: 400px;
+    width: 550px;
+    margin: 0 50px 50px 0;
+    float: left;
+}
+#menuLinks iframe{
+    height: 400px;
+    width: 550px;
+}
+#menuRechts{
+    width: 340px;
+    height: 400px;
+    float: left;
+}
+#menuRechts p{
+    color: white;
+}
+#menuRechts img{
+    width: 340px;
+    height: auto;
+}
+#title1{
+    color: #556772;
+}
+#title2{
+    color: #556772;
+}
+#title3{
+    color: #556772;
+}
+#inhoud1{
+    color: #67c1f5;
+}
+#inhoud2{
+    color: #67c1f5;
+}
+#inhoud3{
+    color: #67c1f5;
+}
+#sluitbalk{
+    width: 940px;
+    height: auto;
+    float: left;
+}
+#lijn{
+    width: 940px;
+    height: 1px;
+    background-color: white;
+}
+#footer1 {
+    color: white;
+    font-size:18px;
+    padding-right: 180px;
+    float: left;
+}
+#footer2 {
+    color: white;
+    font-size:18px;
+    padding-left: 100px;
+    float: left;
+}
+#footer3 {
+    color: white;
+    font-size:18px;
+    float: right;
+}
+#footer1 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#footer2 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#footer3 a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
