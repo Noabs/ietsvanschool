@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdracht 2</title>
+</head>
+<body>
+    <h1>Spaaroverzicht</h1>
+    <p id="divResult"></p>
+    <script>
+    
+    let geld = 0;
+    let maand = 1;
+
+    while (maand <= 12) {
+        geld += 200;
+        document.getElementById('divResult').innerHTML +=
+        `${geld} Euro is er gespaard in maand ${maand} ${((geld >= 2000) ? ' je kunt nu een macbook aanschaffen' : '')} <br>`
+        maand += 1;    
+    }
+    </script>    
+</body>
+</html>

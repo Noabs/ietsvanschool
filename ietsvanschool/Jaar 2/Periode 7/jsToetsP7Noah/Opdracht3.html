@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opdracht 3</title>
+</head>
+<body>
+    <h1>Kleine rekenmachine</h1>
+    
+<input type="number" id="getal1" placeholder="getal 1"><br>
+<input type="number" id="getal2" placeholder="getal 2"><br>
+<button id="plus">Optellen</button>
+    
+<hr>
+<p id="result"></p>
+
+    <script>
+document.getElementById("plus").addEventListener("click", function(){
+    
+    var getal1 = document.getElementById("getal1").value;
+    var getal2 = document.getElementById("getal2").value;
+    
+    
+    
+    if(getal1 && getal2) {
+    var uitkomst = "De som van " + getal1 + " en " + getal2 + " = " + ( parseFloat(getal1) + parseFloat(getal2) );
+    } else {
+    var uitkomst = "Niet alle getallen zijn netjes ingevuld!";
+    }
+    
+    document.getElementById("result").innerHTML += uitkomst + "<br>";
+    });
+    </script>
+</body>
+</html>
